@@ -9,36 +9,50 @@
 </head>
 <body> 
     
-        <nav id="desktop-nav">
-            <div class="logo">Lord Eagle</div>
-            <div >
-                <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#tutorial">Tutorial</a></li>
-                </ul> 
+    <nav id="desktop-nav">
+        <div class="logo">Lord Eagle</div>
+        <div >
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#tutorial">Tutorial</a></li>
+            </ul> 
+        </div>
+    </nav>
+
+    <nav id="mobile-nav">
+        <div class="logo">Lord Eagle</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick = "toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-        </nav>
-    
-        <nav id="mobile-nav">
-            <div class="logo">Lord Eagle</div>
-            <div class="hamburger-menu">
-                <div class="hamburger-icon" onclick = "toggleMenu()">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-    
-                <div class="menu-links">
-                    <li><a href="#about" onclick = "toggleMenu()">About</a></li>
-                    <li><a href="#projects" onclick = "toggleMenu()">Projects</a></li>
-                    <li><a href="#contact" onclick = "toggleMenu()">Contact</a></li>
-                    <li><a href="#tutorial" onclick = "toggleMenu()">Tutorial</a></li>  
-                </div>
+
+            <div class="menu-links">
+                <li><a href="#about" onclick = "toggleMenu()">About</a></li>
+                <li><a href="#projects" onclick = "toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick = "toggleMenu()">Contact</a></li>
+                <li><a href="#tutorial" onclick = "toggleMenu()">Tutorial</a></li>  
             </div>
-        </nav>
+        </div>
+    </nav>
     
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./images/my-ghibli.png" alt="Katleho Nyoni's ghibli">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="name">Katleho Nyoni</h1>
+            <p class="section__text__p2">Mathematician & Mathematical Statistician</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./do')">View CV</button>
+            </div>
+        </div>
+    </section>
+
     <div class="About">
         <h1>ABOUT</h1>
     </div>
