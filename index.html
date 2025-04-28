@@ -5,19 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Katleho Nyoni</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body> 
-    <header class="Navibar">
-        <nav>
-            <ul>
-                <li><a href="Home">Home</a></li>
-                <li><a href="About">About</a></li>
-                <li><a href="Projects">Projects</a></li>
-                <li><a href="Contacts">Contact</a></li>
-                <li><a href="Tutorial">Tutorials</a></li>
-            </ul>
+    
+        <nav id="desktop-nav">
+            <div class="logo">Lord Eagle</div>
+            <div >
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#tutorial">Tutorial</a></li>
+                </ul> 
+            </div>
         </nav>
-    </header>
+    
+        <nav id="mobile-nav">
+            <div class="logo">Lord Eagle</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick = "toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+    
+                <div class="menu-links">
+                    <li><a href="#about" onclick = "toggleMenu()">About</a></li>
+                    <li><a href="#projects" onclick = "toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick = "toggleMenu()">Contact</a></li>
+                    <li><a href="#tutorial" onclick = "toggleMenu()">Tutorial</a></li>  
+                </div>
+            </div>
+        </nav>
+    
     <div class="About">
         <h1>ABOUT</h1>
     </div>
@@ -25,8 +46,9 @@
         <h1>PROJECTS</h1>
     </div>
     <div class="Tutorials">
-        <h1>TUTORIALS</h1>
+        <h1>TUTORIAL</h1>
     </div>
     <footer></footer>
+    <script src="script.js"></script>
 </body>
 </html>
