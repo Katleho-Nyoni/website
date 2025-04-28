@@ -1,4 +1,5 @@
-.About{
-background-color:royalblue;
-
+* { /* Targeting the whole page
+     to have it reach the ends*/
+    margin: 0;
+    padding: 0;
 }
