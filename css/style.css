@@ -172,8 +172,15 @@ section{
     display: flex;
     height: 200px; /* 400px */
     /* width: 600px; */
-    margin: auto 0;   
+    margin: 40px auto;
+    border-radius: 50%; 
+    overflow: hidden;
 }
+#profile img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
 
 .section__text{
     align-self: center;
@@ -220,7 +227,7 @@ section{
 }
 
 .icon:hover{
-    background-color: blue;
+    background-color: none;
 }
 
 /* BUTTONS */
@@ -252,6 +259,7 @@ section{
 
 /* FOOTER  */
 .socials{
+    display:flex;
     justify-content: center;
     height: 7rem;
     background-color:peru;
@@ -259,9 +267,19 @@ section{
 }
 
 .f-icon{
-    display: flexbox;
     cursor: pointer;
     height: 2rem;
-    justify-content: center;
-    align-content: center;
+    margin-top: 2rem;
 }
+
+socials-container-footer{
+    margin-top: 1.5rem;
+    justify-content: center;
+    justify-items: center;
+    gap: 2rem;
+
+}
+
+/* .copyright{
+    text-align: center;
+} */
