@@ -13,8 +13,12 @@ html{
     /* Makes the link to scroll smoothly to sections*/
 }
 
-p{
-    color: rgb(85, 85, 85);
+p,h2{
+    color: black;
+}
+
+h2{
+    text-align: center;
 }
 
 /* TRANSITIONS */
@@ -257,10 +261,21 @@ section{
     background-color: peru;
 }
 
-/* CONTACTS */
+/* PROJECTS */
 .backgroundImage {
     background-image: url(/images/suntree.jpg);
+}
+
+.backgroundImage{
+    position: relative;
+    /* opacity: 0.65;  */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: round; 
+    min-height: 500px;
+    width: 144rem;
 }
 
 /* FOOTER  */
