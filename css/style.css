@@ -13,11 +13,8 @@ html{
     /* Makes the link to scroll smoothly to sections*/
 }
 
-p,h2{
-    color: black;
-}
-
 h2{
+    color: black;
     text-align: center;
 }
 
@@ -32,6 +29,8 @@ nav, .nav-links{
 }
 
 nav{
+    /* background-color: crimson; */
+    /* position:fixed; */
     justify-content: space-around;
     align-items: center;
     height: 17vh;
@@ -49,15 +48,17 @@ a{
     text-decoration-color: white;
 }
 
+/* 
 a:hover{
     color: white;
     border-radius: 8px; 
     padding: 0.85rem;
     height: 1rem;
     background-color: blue;
-    /* text-decoration: underline; */
+     text-decoration: underline; 
 
-}
+} 
+*/
 
 .logo{
     font-size: 2rem;
@@ -196,6 +197,7 @@ section{
 }
 
 .section__text__p1{
+    color: rgb(85,85,85);
     text-align: center;
 }
 
@@ -275,7 +277,56 @@ section{
     background-size: cover;
     background-repeat: round; 
     min-height: 500px;
-    width: 144rem;
+    max-width: 100%;
+}
+
+.projects-container{
+    display: flex;
+    border-radius: 10px;
+    height: 140px;
+    justify-content:space-between;
+    border-color: black;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.backgr{
+    background-image: url(/images/suntree.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: repeat;
+    background-repeat:space;
+    max-width: 100%;
+}
+
+/* CONTACT */
+form{
+    /* display: flex;
+    grid-template-columns: 50% 50%; */
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+input, textarea{
+    padding: 1rem;
+    border-radius: 10px;
+    border:0;
+    background-color: rgb(238, 238, 238);
+    margin-bottom: 1rem;
+}
+
+input{
+    display: flex;
+    flex-direction: column;
+    height: 1rem;
+    width: 250px;
+    margin-top: 1rem;
+}
+textarea{
+    display: flex;
+    /* flex-direction: row; */
+    height: 14rem;
+    width: 800px;
 }
 
 /* FOOTER  */
