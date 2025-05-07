@@ -290,13 +290,21 @@ section{
     gap: 2rem;
 }
 
-.backgr{
+.background-image-wrapper{
     background-image: url(/images/suntree.jpg);
     background-attachment: fixed;
     background-size: cover;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-repeat:space;
-    max-width: 100%;
+    min-width: 100%;
+}
+
+.background-image-wrapper{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    border: 0;
 }
 
 /* CONTACT */
@@ -327,6 +335,14 @@ textarea{
     /* flex-direction: row; */
     height: 14rem;
     width: 800px;
+}
+
+/* TUTORIAL */
+.tut-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
 
 /* FOOTER  */
