@@ -51,7 +51,7 @@ a{
 
 
 a:hover{
-    color:goldenrod;
+    color:#F2C36B;
 } 
 
 
@@ -165,7 +165,8 @@ section{
     justify-content: center;
     gap: 1rem;
     height: 40vh; 
-
+    background-color:#F2C36B; /*#D9E3EF-Pale background for light, elegant feel */
+    color: #032F40; /* Deep text color */
 }
 
 .section__pic-container{
@@ -203,8 +204,12 @@ section{
 
 .section__text__p2{
     font-size: 1rem;
-    color:peru;
+    color:#04738C;
     margin: 0.5rem;
+}
+
+.section__text__p2:hover{
+    color: #F20544;
 }
 
 .name, .title{
@@ -245,8 +250,8 @@ section{
     width: 8rem;
     border-radius: 2rem;
     margin-bottom: 0.7rem;
-    color: peru;
-    background-color: black;
+    color: #D4912B;
+    background-color: #032F40;
 }
 
 .btn-color-1, .btn-color-2{
@@ -254,8 +259,8 @@ section{
 }
 .btn-color-1:hover, .btn-color-2:hover{
     cursor: pointer;
-    color: white;
-    background-color: peru;
+    color: #032F40;
+    background-color: #D4912B;
 }
 
 /* PROJECTS */
