@@ -23,6 +23,7 @@ h2{
     transition:all 300ms ease ;
 }
 
+
 /* DESKTOP NAV */
 nav, .nav-links{
     display: flex;
@@ -43,22 +44,16 @@ nav{
 }
 
 a{
-    color: black;
+    color: white;
     text-decoration: none;
     text-decoration-color: white;
 }
 
-/* 
-a:hover{
-    color: white;
-    border-radius: 8px; 
-    padding: 0.85rem;
-    height: 1rem;
-    background-color: blue;
-     text-decoration: underline; 
 
+a:hover{
+    color:goldenrod;
 } 
-*/
+
 
 .logo{
     font-size: 2rem;
@@ -328,7 +323,40 @@ textarea{
     height: 14rem;
     width: 800px;
 }
-
+/* TUTORIAL */
+.news-letter{
+    background-image: url(/images/suntree.jpg);
+    /* opacity: 0.65; */
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: repeat;
+    background-repeat:space;
+    max-width: 100%;
+}
+.news-container{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.btn-read-more{
+    text-align: center;
+    font-weight: 600;
+    transition: all 300ms ease;
+    /* padding: 1rem; */
+    height: 2rem;
+    width: 7rem;
+    border-radius: 7px;
+    margin-top: 0.7rem;
+    color: peru;
+    background-color: black;
+}
+.btn-read-more:hover{
+    cursor: pointer;
+    color: black;
+    background-color: peru;
+}
 /* FOOTER  */
 .socials{
     display:flex;
@@ -370,3 +398,12 @@ AskUs .bgimg-1, #AskUs .bgimg-2 {
     background-repeat: round; 
     min-height: 350px;
 } */
+
+.construction-container{
+    background-image: url(/images/suntree.jpg);
+    background-attachment:scroll;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
