@@ -10,7 +10,9 @@
 <body> 
     
     <nav id="desktop-nav" style="background-color: #071739; color: white;">
-        <div class="logo">Lord Eagle</div>
+        <div class="logo">Lord Eagle
+            <!-- <img src="./images/LE-logo.png" alt="Logo" style=" max-width: 1rem;"> -->
+        </div>
         <div >
             <ul class="nav-links">
                 <li><a href="#about" title="About">About</a></li>
@@ -93,7 +95,7 @@
         <p class="section__text__p1">Leave A Message</p>
         <h1 class="title">CONTACT</h1> 
         <form action="https://formspree.io/f/xeogkadk" method="post">
-            <div id="socials-container-footer">
+            <div id="socials-container-footer" style="display: flex; margin-left: 50%;">
                 <img src="./images/linkedin.png" alt="LinedIn Profile" class="f-icon" onclick="location.href = 'https://www.linkedin.com/in/katleho-nyoni/' ">                   
                 <img src="./images/github.png" alt="GitHub Profile" class="f-icon" onclick="location.href = 'https://github.com/Katleho-Nyoni' ">                   
                 <!-- <img src="./images/gmail.png" alt="Email" class="f-icon" onclick="location.href = 'mailto:eaglenyoni@gmail.com' ">                    -->
@@ -101,8 +103,12 @@
                 <img src="./images/twitter.png" alt="X(Twitter) Profile" class="f-icon" onclick="location.href = 'https://x.com/Lord_KPN' ">
             </div>
        
-            <input type="text" placeholder="Katleho Nyoni" name="name" required>
-            <input type="email" placeholder="Email" name="email" required>
+            <div class="input-container-name">
+                <input type="text" placeholder="Katleho Nyoni" name="name" required>
+            </div>
+            <div class="input-container-email">
+                <input type="email" placeholder="Email" name="email" required>
+            </div>
             <textarea name="message" rows="10" placeholder="Leave a Message | Send an Email"></textarea>
             <button type="submit" class="btn btn-color-1">Send</button>
         </form> 
