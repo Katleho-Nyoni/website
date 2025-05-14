@@ -264,8 +264,8 @@ section{
 }
 
 /* PROJECTS */
-.backgroundImage {
-    background-image: url(/images/suntree.jpg);
+/* .backgroundImage {
+    background-image: url(/images/white-mount.jpg);
 }
 
 .backgroundImage{
@@ -278,7 +278,7 @@ section{
     background-repeat: round; 
     min-height: 500px;
     max-width: 100%;
-}
+} */
 
 .projects-container{
     display: flex;
@@ -291,7 +291,7 @@ section{
 }
 
 .backgr{
-    background-image: url(/images/suntree.jpg);
+    background-image: url(/images/white-mount.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: repeat;
