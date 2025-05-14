@@ -8,55 +8,54 @@
     <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
+    <nav id="desktop-nav" style="background-color: #071739; color: white;">
+        <div class="logo">Lord Eagle</div>
+        <div >
+            <ul class="nav-links">
+                <li><a href="#about" title="About">About</a></li>
+                <li><a href="#projects" title="Projects">Projects</a></li>
+                <li><a href="#contact" title="Contact">Contact</a></li>
+                <li><a href="#tutorial" title="Tutorial">Tutorial</a></li>
+            </ul> 
+        </div>
+    </nav>
     
+    <nav id="mobile-nav">
+        <div class="logo">Lord Eagle</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick = "toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    
+            <div class="menu-links">
+                <li><a href="#about" onclick = "toggleMenu()">About</a></li>
+                <li><a href="#projects" onclick = "toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick = "toggleMenu()">Contact</a></li>
+                <li><a href="#tutorial" onclick = "toggleMenu()">Tutorial</a></li>  
+            </div>
+        </div>
+    </nav>
+    
+    <div class="news-letter" style="height: 25rem;">
+        <div class="news-container">
+            <h3>BMW vs Benz : Which car is Faster</h3>
+            <p>Take a wild guess! Which is faster between these two cars? Turns out there are contributing factors that make a car faster. In this analysis, I use the dataset I created to prove that BMW has a better lauch than Mercedes Benz but ...</p>
+            <button class="btn-read-more">Read More</button>
+        </div>
+    </div>
+    
+    <div id="tutorial" style="background-color: #4B6382; height: 70rem;">
+        <p class="section__text__p1">Learn From My</p>
+        <h1 class="title">TUTORIALS</h1>
+        <div class="tut-container">
+            <ol>
+                <li> <a href="https://rpubs.com/LordEagle/TSA1" class="tut-links"><h4>Time Series Analysis(TSA) : Fitting an Autoregressive Integrated Moving Average(ARIMA) model</h4></a></li>
+            </ol>
+        </div>
+    </div>
 </body>
-<nav id="desktop-nav" style="background-color: #071739; color: white;">
-    <div class="logo">Lord Eagle</div>
-    <div >
-        <ul class="nav-links">
-            <li><a href="#about" title="About">About</a></li>
-            <li><a href="#projects" title="Projects">Projects</a></li>
-            <li><a href="#contact" title="Contact">Contact</a></li>
-            <li><a href="#tutorial" title="Tutorial">Tutorial</a></li>
-        </ul> 
-    </div>
-</nav>
-
-<nav id="mobile-nav">
-    <div class="logo">Lord Eagle</div>
-    <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick = "toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-
-        <div class="menu-links">
-            <li><a href="#about" onclick = "toggleMenu()">About</a></li>
-            <li><a href="#projects" onclick = "toggleMenu()">Projects</a></li>
-            <li><a href="#contact" onclick = "toggleMenu()">Contact</a></li>
-            <li><a href="#tutorial" onclick = "toggleMenu()">Tutorial</a></li>  
-        </div>
-    </div>
-</nav>
-
-<div class="news-letter" style="height: 25rem;">
-    <div class="news-container">
-        <h3>BMW vs Benz : Which car is Faster</h3>
-        <p>Take a wild guess! Which is faster between these two cars? Turns out there are contributing factors that make a car faster. In this analysis, I use the dataset I created to prove that BMW has a better lauch than Mercedes Benz but ...</p>
-        <button class="btn-read-more">Read More</button>
-    </div>
-</div>
-
-<div id="tutorial" style="background-color: #4B6382; height: 70rem;">
-    <p class="section__text__p1">Learn From My</p>
-    <h1 class="title">TUTORIALS</h1>
-    <div class="tut-container">
-        <ol>
-            <li> <a href="https://rpubs.com/LordEagle/TSA1" class="tut-links"><h4>Time Series Analysis(TSA) : Fitting an Autoregressive Integrated Moving Average(ARIMA) model</h4></a></li>
-        </ol>
-    </div>
-</div>
 <footer class="socials" style="background-color: darkgray;">
     <div id="socials-container-footer">
         <img src="./images/linkedin.png" alt="LinedIn Profile" class="f-icon" onclick="location.href = 'https://www.linkedin.com/in/katleho-nyoni/' ">                   
