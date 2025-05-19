@@ -44,9 +44,8 @@ nav{
 }
 
 a{
-    color: white;
+    color:#032F40 ;
     text-decoration: none;
-    text-decoration-color: white;
 }
 
 
@@ -60,7 +59,7 @@ a:hover{
 }
 
 .logo:hover{
-    cursor: default;
+    cursor: pointer;
 }
 
 /* HAMBURGER MENU  */
