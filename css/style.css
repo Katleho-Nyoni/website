@@ -159,6 +159,21 @@ section{
     display: flex;
 }
 
+/* NEWSLETTER */
+#newsletter{
+     background-attachment:fixed;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.gallery{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 /* PROFILE */
 #profile{
     display: flex;
