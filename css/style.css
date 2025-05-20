@@ -323,6 +323,7 @@ section{
     align-items: stretch;
 }
 
+<<<<<<< HEAD
 .project-container{
     background-color: #032F40; /*#D9E3EF-Pale background for light, elegant feel */
     color: white;
@@ -343,11 +344,23 @@ section{
 #projects{
     background-image: url(/images/white-mount.jpg);
     /* opacity: 0.65; */
+=======
+.background-image-wrapper{
+    background-image: url(/images/suntree.jpg);
+>>>>>>> Ref2
     background-attachment: fixed;
     background-size: cover;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-repeat:space;
-    max-width: 100%;
+    min-width: 100%;
+}
+
+.background-image-wrapper{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    border: 0;
 }
 
 /* .project-container:hover{
@@ -415,6 +428,7 @@ textarea{
     width: 800px;
 }
 
+<<<<<<< HEAD
 .message-box{
     display: flex;
     justify-content: center;
@@ -453,6 +467,16 @@ textarea{
     color: black;
     background-color: peru;
 }
+=======
+/* TUTORIAL */
+.tut-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+>>>>>>> Ref2
 /* FOOTER  */
 .socials{
     display:flex;
