@@ -1,5 +1,4 @@
-* { /* Targeting the whole page
-     to have it reach the ends*/
+* {
     margin: 0;
     padding: 0;
 }
@@ -10,7 +9,6 @@ body{
 
 html{
     scroll-behavior: smooth;
-    /* Makes the link to scroll smoothly to sections*/
 }
 
 h2{
@@ -18,20 +16,15 @@ h2{
     text-align: center;
 }
 
-/* TRANSITIONS */
 .a,.btn{
     transition:all 300ms ease ;
 }
 
-
-/* DESKTOP NAV */
 nav, .nav-links{
     display: flex;
 }
 
 nav{
-    /* background-color: crimson; */
-    /* position:fixed; */
     justify-content: space-around;
     align-items: center;
     height: 17vh;
@@ -40,7 +33,7 @@ nav{
 .nav-links{
     gap: 2rem;
     list-style: none;
-    font-size: 1.5rem; /* rem is more like pixels*/
+    font-size: 1.5rem;
 }
 
 a{
@@ -48,11 +41,9 @@ a{
     text-decoration: none;
 }
 
-
 a:hover{
     color:#F2C36B;
 } 
-
 
 .logo{
     font-size: 2rem;
@@ -62,10 +53,8 @@ a:hover{
     cursor: pointer;
 }
 
-/* HAMBURGER MENU  */
 #mobile-nav{
     display: none;
-
 }
 
 .hamburger-menu{
@@ -120,7 +109,6 @@ a:hover{
 
 .hamburger-icon.open span:first-child{
     transform: rotate(45deg) translate(10px,5px);
-
 }
 
 .hamburger-icon.open span:nth-child(2){
@@ -129,23 +117,18 @@ a:hover{
 
 .hamburger-icon.open span:last-child{
     transform: rotate(-45deg) translate(10px,-5px);
-
 }
 
 .hamburger-icon span:first-child{
     transform: none;
-
 }
 .hamburger-icon span:first-child{
     opacity: 1;
-
 }
 .hamburger-icon span:first-child{
     transform: none;
-
 }
 
-/* SECTIONS */
 section{
     padding-top: 4vh;
     height: 96vh;
@@ -158,9 +141,8 @@ section{
     display: flex;
 }
 
-/* NEWSLETTER */
 #newsletter{
-     background-attachment:fixed;
+    background-attachment:fixed;
     background-size: cover;
     text-align: center;
     align-items: center;
@@ -173,36 +155,19 @@ section{
     text-align: center;
 }
 
-/* PROFILE */
 #profile{
     display: flex;
     justify-content: center;
-    /* gap: 1rem; */
     height: 70vh; 
-    background-color:#F2C36B; /*#D9E3EF-Pale background for light, elegant feel */
-    color: #032F40; /* Deep text color */
-    /* background-image: url(/images/white-mount.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: repeat;
-    background-repeat:space;
-    max-width: 100%; */
+    background-color:#F2C36B; 
+    color: #032F40; 
 }
 
 .section__pic-container{
     display: flex;
-    height: 200px; /* 400px */
-    /* width: 600px; */
-    /* justify-content: center; */
+    height: 200px;
     margin: 40px;
-    /* border-radius: 50%; 
-    overflow: hidden; */
 }
-/* #profile img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-} */
 
 .section__text{
     align-self: center;
@@ -246,18 +211,15 @@ section{
     gap: 2rem;
 }
 
-/* ICONS */
 .icon{
     cursor: pointer;
     height: 2rem;
-    /* gap: 2rem; */
 }
 
 .icon:hover{
     background-color: none;
 }
 
-/* BUTTONS */
 .btn-container{
     display: flex;
     justify-content: center;
@@ -284,35 +246,6 @@ section{
     background-color: #D4912B;
 }
 
-/* PROJECTS */
-
-/* .backgroundImage {
-    
-}
-
-.backgroundImage{
-    position: relative;
-    /* opacity: 0.65;  
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-repeat: round; 
-    min-height: 500px;
-    max-width: 100%;
-}
-*/
-
-/* .projects-container{
-    display: flex;
-    border-radius: 10px;
-    height: 140px;
-    justify-content:space-between;
-    border-color: black;
-    flex-direction: column;
-    gap: 2rem;
-} */
-
 .content-container{
     display:flex;
     flex-wrap: wrap;
@@ -324,7 +257,7 @@ section{
 }
 
 .project-container{
-    background-color: #032F40; /*#D9E3EF-Pale background for light, elegant feel */
+    background-color: #032F40;
     color: white;
     border-radius: 1.5rem;
     box-shadow: 0 4px 16px rgba(0,0,0,0.10), 0 1.5px 6px rgba(0,0,0,0.08);
@@ -342,7 +275,6 @@ section{
 
 #projects{
     background-image: url(/images/white-mount.jpg);
-    /* opacity: 0.65; */
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -358,11 +290,6 @@ section{
     border: 0;
 }
 
-/* .project-container:hover{
-    transform: translateY(-8px) scale(1.03); 
-     box-shadow: 0 8px 24px rgba(0,0,0,0.15), 0 3px 12px rgba(0,0,0,0.10);
-} */
-
 .project-container h4{
     margin-bottom: 0.5rem;
     font-size: 1.2rem;
@@ -375,7 +302,7 @@ section{
     font-weight: 400;
 }
 
- .backgr{
+.backgr{
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
    width: 100%; 
@@ -388,10 +315,7 @@ section{
     cursor: pointer;
 }
 
-/* CONTACT */
 form{
-    /* display: flex;
-    grid-template-columns: 50% 50%; */
     justify-content: center;
     align-items: center;
     gap: 1rem;
@@ -427,10 +351,9 @@ textarea{
     display: flex;
     justify-content: center;
 }
-/* TUTORIAL */
+
 .news-letter{
     background-image: url(/images/suntree.jpg);
-    /* opacity: 0.65; */
     background-attachment: fixed;
     background-size: cover;
     background-repeat: repeat;
@@ -448,7 +371,6 @@ textarea{
     text-align: center;
     font-weight: 600;
     transition: all 300ms ease;
-    /* padding: 1rem; */
     height: 2rem;
     width: 7rem;
     border-radius: 7px;
@@ -468,7 +390,6 @@ textarea{
     gap: 1rem;
 }
 
-/* FOOTER  */
 .socials{
     display:flex;
     justify-content: center;
@@ -488,38 +409,8 @@ socials-container-footer{
     justify-content: center;
     justify-items: center;
     gap: 2rem;
-
 }
 
-/* .copyright{
-    text-align: center;
-} */
-
- /* #ADVANCED, COPIED FROM UFS
- .bgimg-1 {
-    background-image: url(/images/librariesprovider5/ufs_redesign_2021/parallaxleft.jpg);
-}
-AskUs .bgimg-1, #AskUs .bgimg-2 {
-    position: relative;
-    opacity: 0.65; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-repeat: round; 
-    min-height: 350px;
-} */
-
-.construction-container{
-    background-image: url(/images/suntree.jpg);
-    background-attachment:scroll;
-    background-size: cover;
-    text-align: center;
-    align-items: center;
-    align-content: center;
-}
-
-/* MOBILE RESPONSIVE STYLES */
 @media (max-width: 900px) {
   .content-container {
     flex-direction: column;
