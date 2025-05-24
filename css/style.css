@@ -246,6 +246,35 @@ section{
     background-color: #D4912B;
 }
 
+/* PROJECTS */
+
+/* .backgroundImage {
+    
+}
+
+.backgroundImage{
+    position: relative;
+    /* opacity: 0.65;  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: round; 
+    min-height: 500px;
+    max-width: 100%;
+}
+*/
+
+/* .projects-container{
+    display: flex;
+    border-radius: 10px;
+    height: 140px;
+    justify-content:space-between;
+    border-color: black;
+    flex-direction: column;
+    gap: 2rem;
+} */
+
 .content-container{
     display:flex;
     flex-wrap: wrap;
@@ -270,11 +299,14 @@ section{
     flex-direction: column;
     align-items: flex-start;
     transition: transform 0.2s, box-shadow 0.2s;
-    height: 100%;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
 }
 
 #projects{
     background-image: url(/images/white-mount.jpg);
+    /* opacity: 0.65; */
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -290,17 +322,12 @@ section{
     border: 0;
 }
 
-.project-container h4{
-    margin-bottom: 0.5rem;
-    font-size: 1.2rem;
-    color: #032F40;
-}
+/* .project-container:hover{
+    transform: translateY(-8px) scale(1.03); 
+     box-shadow: 0 8px 24px rgba(0,0,0,0.15), 0 3px 12px rgba(0,0,0,0.10);
+} */
 
-.project-container p{
-    font-size: 1rem;
-    color: white;
-    font-weight: 400;
-}
+
 
 .backgr{
    display: grid;
@@ -411,6 +438,35 @@ socials-container-footer{
     gap: 2rem;
 }
 
+/* .copyright{
+    text-align: center;
+} */
+
+ /* #ADVANCED, COPIED FROM UFS
+ .bgimg-1 {
+    background-image: url(/images/librariesprovider5/ufs_redesign_2021/parallaxleft.jpg);
+}
+AskUs .bgimg-1, #AskUs .bgimg-2 {
+    position: relative;
+    opacity: 0.65; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: round; 
+    min-height: 350px;
+} */
+
+.construction-container{
+    background-image: url(/images/suntree.jpg);
+    background-attachment:scroll;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+/* MOBILE RESPONSIVE STYLES */
 @media (max-width: 900px) {
   .content-container {
     flex-direction: column;
