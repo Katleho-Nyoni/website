@@ -1,0 +1,8 @@
+@media screen and (max-width: 500px){ // made it 500px so I can see it in VS code
+    #desktop-nav{
+        display: none;
+    }
+    #mobile-nav{
+        display: flex;
+    }
+}
