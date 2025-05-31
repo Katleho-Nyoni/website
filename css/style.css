@@ -326,37 +326,6 @@ section{
     position: relative;
 }
 
-.project-container h4{
-    margin-bottom: 0.5rem;
-    font-size: 1.2rem;
-    color: crimson;
-}
-
-.project-container p{
-    font-size: 1rem;
-    color: white;
-    font-weight: 400;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 4; /* Number of lines to show */
-    -webkit-box-orient: vertical;
-    transition: all 0.3s ease;
-}
-
-.project-container:hover {
-    height: auto;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.15), 0 3px 12px rgba(0,0,0,0.10);
-    z-index: 2;
-}
-
-.project-container:hover p {
-    overflow: visible;
-    text-overflow: unset;
-    -webkit-line-clamp: unset;
-    white-space: normal;
-}
-
 /* @property --angle{
   syntax: "<angle>";
   initial-value: 0deg;
@@ -389,6 +358,37 @@ section{
     --angle: 360deg;
   }
 } */
+
+.project-container h4{
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: crimson;
+}
+
+.project-container p{
+    font-size: 1rem;
+    color: white;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* Number of lines to show */
+    -webkit-box-orient: vertical;
+    transition: all 0.3s ease;
+}
+
+.project-container:hover {
+    height: auto;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15), 0 3px 12px rgba(0,0,0,0.10);
+    z-index: 2;
+}
+
+.project-container:hover p {
+    overflow: visible;
+    text-overflow: unset;
+    -webkit-line-clamp: unset;
+    white-space: normal;
+}
 
 
 .background-image-wrapper{
