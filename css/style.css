@@ -158,6 +158,11 @@ section{
     display: flex;
 }
 
+/*ABOUT*/
+#about{
+    height: auto;
+    background-color: #F2C36B;
+}
 /* NEWSLETTER */
 #newsletter{
      background-attachment:fixed;
