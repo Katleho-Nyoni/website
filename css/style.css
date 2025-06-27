@@ -160,7 +160,7 @@ section{
 
 /*ABOUT*/
 #about{
-    height: auto;
+    height: fit-content;
     background-color: #F2C36B;
 }
 /* NEWSLETTER */
