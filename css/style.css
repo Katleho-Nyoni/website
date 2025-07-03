@@ -158,6 +158,11 @@ section{
     display: flex;
 }
 
+/*ABOUT*/
+#about{
+    height: fit-content;
+    background-color: #F2C36B;
+}
 /* NEWSLETTER */
 #newsletter{
      background-attachment:fixed;
@@ -564,7 +569,7 @@ AskUs .bgimg-1, #AskUs .bgimg-2 {
 
 .construction-container{
     background-image: url(/images/suntree.jpg);
-    background-attachment:scroll;
+    background-attachment:fixed;
     background-size: cover;
     text-align: center;
     align-items: center;
